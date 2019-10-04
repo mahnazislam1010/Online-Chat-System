@@ -20,8 +20,8 @@ app.secret_key = os.urandom(24)
 mysql = MySQL()
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = '123456789'
-app.config['MYSQL_DB'] = 'sslchat'
+app.config['MYSQL_PASSWORD'] = 'mahnazrafiaislam'
+app.config['MYSQL_DB'] = 'chat'
 app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
 
 # Initialize the app for use with this MySQL class
